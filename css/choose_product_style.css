@@ -1,0 +1,285 @@
+body
+{
+    background-color: #f9f9f9;
+}
+
+/* Title and sorting section */
+
+.title
+{
+    float:left;
+}
+
+.title p
+{
+    font-size: 45px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.sorting
+{
+   margin-left:928px;
+   padding-top:15px;
+}
+
+.sorting ul
+{
+    list-style: none;
+}
+
+.sorting ul li
+{
+    float: left;
+}
+
+.sorting ul li:first-child
+{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+/*
+.sorting ul li:not(:first-child)
+{
+    padding: 5px 5px;
+    border: 1px solid #d0d0d0;
+    background-color: rgb(238, 238, 238);
+}*/
+
+.sorting ul li:nth-child(2),
+.sorting ul li:nth-child(3)
+{
+    border-right: none;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.sorting input
+{
+    color: #000000;
+    padding: 5px 5px;
+    border: 1px solid #d0d0d0;
+    background-color: rgb(238, 238, 238);
+    outline: none;
+    cursor: pointer;
+}
+
+.sorting input:hover
+{
+    background-color: rgb(225, 225, 225);
+}
+
+/* Filter options section */
+
+.filter_options_section
+{
+    clear: left;
+    width: 242px;
+    height: 293px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    margin-top: 20px;
+    float: left;
+}
+
+.filter_options_section form
+{
+    padding-left: 29px;
+    padding-top: 19px;
+}
+
+.filter_options_section form ul
+{
+    list-style: none;
+}
+
+.filter_options_section form .range_price li input[type="text"]
+{
+    width: 54px;
+    height: 23px;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    outline: none;
+}
+
+.filter_options_section form .range_price li
+{
+    float: left;
+}
+
+.filter_options_section form input[type="submit"]
+{
+    width: 54px;
+    height: 23px;
+    border-radius: 10px;
+    border: 1px solid #d24a43;
+    background-color: #fff;
+    color: #d24a43;
+    text-align: center;
+    outline: none;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.filter_options_section form .range_price li:nth-child(2)
+{
+    font-size: 20px;
+    color: #e5e5e5;
+}
+
+.filter_options_section form .range_price li input[type="submit"]:hover
+{
+    cursor: pointer;
+}
+
+.filter_options_section form p
+{
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Content */
+
+.product_by_criteries_section
+{
+    width: 1100px;
+    height: 900px;
+    margin-left: 260px;
+    margin-top:60px;
+    margin-bottom:55px;
+}
+
+.product_by_criteries
+{
+    width: 250px;
+    height: 436px;
+    background-color: #fff;
+    border: 2px solid #b2b2b2;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.product_by_criteries_section .product_by_criteries
+{
+    margin-left: 20px;
+}
+
+.product_by_criteries .img_product
+{
+    padding-left: 36px;
+    padding-top: 25px;
+}
+
+.product_by_criteries .img_product a img
+{
+    width: 180px;
+    height: 300px;
+}
+
+.product_by_criteries .text_criteries1,
+.product_by_criteries .text_criteries2,
+.product_by_criteries .text_criteries3
+{
+    position: absolute;
+    top: 296px;
+    left: 0;
+    width: 80px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.product_by_criteries .text_criteries3
+{
+    width: 90px;
+}
+
+.product_by_criteries .text_criteries1
+{
+   background-color: #4b79bb;
+}
+
+.product_by_criteries .text_criteries2
+{
+    background-color: #74b65f;
+}
+
+.product_by_criteries .text_criteries3
+{
+    background-color: #d24a43;
+}
+
+.product_by_criteries .description
+{
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.product_by_criteries .description p
+{
+    font-size: 12px;
+}
+
+.product_by_criteries .description p:nth-child(2)
+{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pagination
+{
+    width:100%;
+    height:46px;
+    margin-left:683px;
+}
+
+.pagination ul
+{
+    list-style:none;
+}
+
+.pagination ul li
+{
+    float:left;
+    background-color:#fff;
+    border:1px solid #ccc;
+}
+
+.pagination ul li:first-child, .pagination ul li:last-child 
+{
+    padding:13px 40px;
+}
+
+.pagination ul li:not(:first-child), .pagination ul li:not(:last-child)
+{
+    padding:13px 13px;
+}
+
+ .pagination ul li:first-child, .pagination ul li a
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+ .pagination ul li:not(:last-child)
+{
+    border-right:none;
+}
+
+.pagination ul li.active
+{
+    background-color:#ccc;
+}
+
+.pagination ul li:hover
+{
+    background-color:#ccc;
+    cursor:pointer;
+}

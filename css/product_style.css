@@ -1,0 +1,322 @@
+body
+{
+    background-color: #f9f9f9;
+}
+
+/* Img section */
+.product_img_container
+{
+    float: left;
+    width: 520px;
+    height: 617px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-left: 33px;
+}
+
+.product_img_container .img_block img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 541px;
+}
+
+.product_img_container .img_block
+{
+    margin-top: 22px;
+}
+
+.product_img_container .product_criterie1,
+.product_img_container .product_criterie2,
+.product_img_container .product_criterie3
+{
+    position: absolute;
+    top: 527px;
+    left: 0;
+    width: 118px;
+    height: 34px;
+    color: #fff;
+    text-align: center;
+}
+
+.product_img_container .product_criterie1
+{
+    background-color: #4b79bb;
+}
+
+.product_img_container .product_criterie2
+{
+    background-color: #74b65f;
+}
+
+.product_img_container .product_criterie3
+{
+    background-color: #d24a43;
+}
+
+.product_img_container .product_criterie1 p,
+.product_img_container .product_criterie2 p,
+.product_img_container .product_criterie3 p
+{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* Short description about product section */
+
+.short_description_section
+{
+    width: 750px;
+    height: 422px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    float: right;
+    margin-right: 40px;
+}
+
+.short_description_section .description_container
+{
+    margin-left: 38px;
+    margin-top: 26px;
+}
+
+.short_description_section .title
+{
+    font-size: 42px;
+}
+
+.short_description_section .little_description
+{
+    font-size: 18px;
+}
+
+.short_description_section .availability
+{
+    font-size: 24px;
+    margin-left: 87px;
+    margin-top: 47px;
+    color: #4b79bb;
+}
+
+.short_description_section .fa-check-circle
+{
+    color: #74b65f;
+}
+
+.short_description_section .price_text
+{
+    font-size: 40px;
+    margin-top: 20px;
+    float: left;
+}
+
+.short_description_section .price_num
+{
+    font-size: 45px;
+    margin-top: 20px;
+    color: #4b79bb;
+    font-weight: bold;
+    margin-left: 250px;
+    padding-right: 200px;
+}
+
+.old_price_text
+{
+    font-size: 40px;
+    float: left;
+}
+
+.short_description_section .old_num
+{
+    font-size: 45px;
+    color: #d24a43;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+#quantity_input
+{
+    padding: 5px 5px;
+    width: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+#submit_input
+{
+    padding: 10px 15px;
+    color: #d24a43;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #d24a43;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* Payment and guarantee section */
+
+.payment_section
+{
+    /*clear: both;*/
+    width: 523px;
+    height: 245px;
+    /*border: 1px solid #ccc;*/
+    /*margin-left: 33px;*/
+    position: absolute;
+    top: 970px;
+    left: 0;
+}
+
+.payment_section .payment_and_guarantee_float_block
+{
+    float: left;
+    width: 25%;
+    height: 235px;
+    padding-top: 12px;
+    padding-left: 64px;
+    padding-right: 64px;
+    position: relative;
+}
+/*
+.payment_section .payment_and_guarantee_float_block:nth-child(1)
+{
+    border-right: 1px solid black;
+}
+*/
+.payment_section .payment_title, .payment_section .guarantee_title
+{
+    font-size: 30px;
+}
+
+.payment_section .payment_title
+{
+    color: #4b79bb;
+}
+
+.payment_section .guarantee_title
+{
+    color: #d24a43;
+}
+
+.payment_section .paymant_description span, .payment_section .guarantee_description span
+{
+    font-weight: bold;
+}
+
+.payment_section .fa-credit-card
+{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 30px;
+    color: #4b79bb;
+}
+
+.payment_section .fa-thumbs-up
+{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 30px;
+    color: #d24a43;
+}
+
+/* Feature and full description section */
+
+.feature_and_full_description_section
+{
+    width: 750px;
+    height: 650px;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.feature_and_full_description_section ul
+{
+    list-style: none;
+}
+
+.feature_and_full_description_section .headers_block li
+{
+    float: left;
+    width: 33%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    color: #ccc;
+}
+
+.feature_and_full_description_section .headers_block li:first-child
+{
+    border-left: none;
+}
+
+.feature_and_full_description_section .headers_block li:last-child
+{
+    width: 33.7%;
+}
+
+.feature_and_full_description_section .headers_block li:hover
+{
+    color: #d24a43;
+}
+
+.feature_and_full_description_section .headers_block .active
+{
+    color: #d24a43;
+}
+
+.feature_and_full_description_section #delivery_text
+{
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 20px;
+    display: block;
+}
+
+.feature_and_full_description_section #feature_text
+{
+    margin-top: 70px;
+    margin-left: 30px;
+    display: none;
+}
+
+.feature_and_full_description_section #feature_text ul li
+{
+    font-size: 18px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    width: 690px;
+}
+
+.feature_and_full_description_section #feature_text ul li span
+{
+    font-weight: bold;
+    float: right;
+}
+
+.feature_and_full_description_section #description_text
+{
+    margin-top: 70px;
+    margin-left: 30px;
+    display: none;
+}
+
+.feature_and_full_description_section #description_text p
+{
+    font-size: 18px;
+}

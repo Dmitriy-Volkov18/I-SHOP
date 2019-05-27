@@ -1,0 +1,121 @@
+/* Footer section */
+.footer_section
+{
+    width: 100%;
+    height: 284px;
+    background-color: #fff;
+    margin-top: 20px;
+    position: relative;
+    border-top: 2px solid #e08860;
+}
+
+.footer_section .orange_line
+{
+    width: 100%;
+    height: 2px;
+    background-color: #e08860;
+}
+
+.header_of_site h2
+{
+    color: #e18c44;
+    font-size: 44px;
+    margin-left: 120px;
+    margin-top: 120px;
+    margin-bottom: 31px;
+}
+
+.header_of_site span
+{
+    color: #d24a43;
+}
+
+.left_text
+{
+    padding-left: 133px;
+}
+
+.left_text p
+{
+    color: #ccc;
+}
+
+.fa-cc-mastercard, .fa-cc-visa
+{
+    font-size: 32px;
+    margin-right: 4px;
+}
+
+.fa-cc-mastercard
+{
+    color: #4b79bb;
+}
+
+.fa-cc-visa
+{
+    color: #d24a43;
+}
+
+.catalog_block, .about_site_block, .contact_info_block
+{
+    position: absolute;
+}
+
+.catalog_block
+{
+    top: 40px;
+    left: 546px;
+}
+
+.catalog_block .header_catalog_block p, 
+.about_site_block .header_about_site_block p,
+.contact_info_block .header_contact_info_block p
+{
+    color: #ccc;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.catalog_block ul, .about_site_block ul
+{
+    list-style: none;
+}
+
+.catalog_block ul li, .about_site_block ul li
+{
+    padding: 6px 0;
+}
+
+.catalog_block ul li a, .about_site_block ul li a
+{
+    color: #ccc;
+    text-decoration: none;
+}
+
+.catalog_block ul li a:hover, .about_site_block ul li a:hover
+{
+    color: #e18c44;
+}
+
+.about_site_block
+{
+    top: 40px;
+    left: 800px;
+}
+
+.contact_info_block
+{
+    top: 40px;
+    left: 1000px;
+}
+
+.contact_info_block > p
+{
+    color: #ccc;
+    padding: 6px 0;
+}
+
+.contact_info_block p:nth-child(4)
+{
+    margin-bottom: 38px;
+}
